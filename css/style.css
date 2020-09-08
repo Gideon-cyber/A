@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+}
+
+header {
+	color: white;
+	background-color: #006600;
+}
+
+h1 {
+	font-size: 3em;
+	padding-top: 0.3em;
+	padding-left: 0.5em;
+}
+
+header>h2 {
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	font-style: italic;
+}
+header>nav {
+	background-color: #66ff63;
+	height: 1.5em;
+	padding-left: 1.5em;
+}
+header>nav>ul {
+	word-spacing: 3em;
+}
+header>nav>ul>li{
+	display: inline;
+	line-height: 1.5em;
+}
+.homo {
+	text-decoration: none;
+	color: #006600;
+}
+main {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	margin-top: 1em;
+}
+
+main h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+main>article>p {
+	margin-top: .5em;
+	text-align: justify;
+}
+main section {
+	width: 30%;
+	float: left;
+	margin: .5em;
+}
+main h3 {
+	line-height: 3em;
+}
+aside {
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+	padding: 1em 3em;
+	height: 100%;
+	background-color: rgb(0,355,0, 0.3);
+}
+aside h2 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+aside li {
+	margin-left: 1em;
+	color: blue;
+}
+aside a {
+	color: blue;
+}
+aside h3 {
+	line-height: 1.5em;
+	margin-top: 1em;
+}
+footer {
+	clear: both;
+	color: white;
+	background-color: #004400;
+}
+footer h2 {
+	font-size: 1.8em;
+	padding-left: 1em;
+	padding-top: 0.3em;
+}
+footer p {
+	font-size: 1.3em;
+	padding-left: 1.3em;
+}
+
+
+
+
