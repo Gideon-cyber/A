@@ -13,19 +13,6 @@ header {
 	background-color: #006600;
 }
 
-h1 {
-	font-size: 3em;
-	padding-top: 0.3em;
-	padding-left: 0.5em;
-}
-
-header>h2 {
-	font-size: 1.5em;
-	font-weight: lighter;
-	padding-left: 1em;
-	padding-bottom: 0.5em;
-	font-style: italic;
-}
 header>nav {
 	background-color: #66ff63;
 	height: 1.5em;
@@ -93,6 +80,18 @@ footer p {
 
 /*********** Large sized devices ***********/
 @media (min-width: 1217px) {
+	h1 {
+	font-size: 3em;
+	padding-top: 0.3em;
+	padding-left: 0.5em;
+	}
+	header>h2 {
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	font-style: italic;
+	}
 	main {
 	float: left;
 	width: 40%;
@@ -121,6 +120,18 @@ footer p {
 	.col-md-12 {
 		width: 100%;
 	}
+	h1 {
+	font-size: 3em;
+	padding-top: 0.3em;
+	padding-left: 0.5em;
+	}
+	header>h2 {
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	font-style: italic;
+	}
 	main {
 		float: left;
 		width: 100%;
@@ -139,6 +150,18 @@ footer p {
 	.col-sm-12 {
 		float: left;
 		width: 100%;
+	}
+	h1 {
+	font-size: 2em;
+	padding-top: 0.3em;
+	padding-left: 0.7em;
+	}
+	header>h2 {
+	font-size: 1em;
+	font-weight: lighter;
+	padding-left: 1.5em;
+	padding-bottom: 0.5em;
+	font-style: italic;
 	}
 	main {
 		float: left;
