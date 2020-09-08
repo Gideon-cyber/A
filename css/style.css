@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -41,12 +42,6 @@ header>nav>ul>li{
 	text-decoration: none;
 	color: #006600;
 }
-main {
-	float: left;
-	width: 40%;
-	margin-left: 5%;
-	margin-top: 1em;
-}
 
 main h2 {
 	font-size: 1.5em;
@@ -60,19 +55,12 @@ main>article>p {
 main section {
 	width: 30%;
 	float: left;
-	margin: .5em;
+	padding: .5em;
 }
 main h3 {
 	line-height: 3em;
 }
-aside {
-	float: left;
-	width: 30%;
-	margin-left: 5%;
-	padding: 1em 3em;
-	height: 100%;
-	background-color: rgb(0,355,0, 0.3);
-}
+
 aside h2 {
 	font-size: 1.5em;
 	line-height: 1.5em;
@@ -103,6 +91,64 @@ footer p {
 	padding-left: 1.3em;
 }
 
+/*********** Large sized devices ***********/
+@media (min-width: 1217px) {
+	main {
+	float: left;
+	width: 40%;
+	margin-left: 8%;
+	margin-top: 1em
+	}
+	aside {
+	float: left;
+	width: 30%;
+	margin-left: 10%;
+	padding: 1em 3em;
+	height: 100%;
+	background-color: rgb(0,355,0, 0.3);
+	}
+}
 
 
+/************* Medium sized devices ***********/
+@media (min-width: 776px) and (max-width: 1216px) {
+	.col-md-6, .col-md-12 {
+		float: left;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+	main {
+		float: left;
+		width: 100%;
+		padding: 3%;
+	}
+	aside {
+		float: left;
+		width: 100%;
+		padding: 3%;
+		background-color: rgb(0,355,0, 0.3);
+	}
+}
 
+/************* Small sized devices  ***********/
+@media (max-width: 775px) {
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
+	main {
+		float: left;
+		width: 100%;
+		padding: 3%;
+	}
+	aside {
+		float: left;
+		width: 100%;
+		padding: 3%;
+		background-color: rgb(0,355,0, 0.3);
+	}
+}
